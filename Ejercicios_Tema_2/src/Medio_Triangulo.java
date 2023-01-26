@@ -8,7 +8,8 @@ public class Medio_Triangulo {
 
         int base = entrada.nextInt();*/
 		//commit1 nº5
-		int base = 5;
+		//commit2 nº7
+		int base = 7;
         if (base%2==0) {
         	System.out.println("Error");
         }
