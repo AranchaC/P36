@@ -7,9 +7,8 @@ public class Medio_Triangulo {
 		System.out.print("Dame un número impar: ");
 
         int base = entrada.nextInt();*/
-		//commit1 nº5
-		//commit2 nº7
-		int base = 7;
+		//commit cambio base de 7 a 5
+		int base = 5;
         if (base%2==0) {
         	System.out.println("Error");
         }
