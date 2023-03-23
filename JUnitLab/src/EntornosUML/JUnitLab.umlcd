@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_JOfrcMlXEe2hENwqyPbiUw">
+  <modelElement href="JUnitLab.uml#_JkM1sMlXEe2hENwqyPbiUw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Jrja4MlXEe2hENwqyPbiUw" sourceAnchor="140.0,0.0" targetAnchor="0.0,41.0" target="_JsoY8MlXEe2hENwqyPbiUw" source="_Jrl3IMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JmzdwMlXEe2hENwqyPbiUw"/>
+    <bendpoints xmi:id="_J7waEMlXEe2hENwqyPbiUw" sourceY="-95" targetX="-211"/>
+    <stereotypes xmi:id="_JrkB8MlXEe2hENwqyPbiUw" name="Reference">
+      <modelElement href="JUnitLab.uml#_Jm0r4MlXEe2hENwqyPbiUw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JrkB8clXEe2hENwqyPbiUw" text="">
+      <visualProperties xmi:id="_J70rgMlXEe2hENwqyPbiUw" position="-21.488531000908438,41.06535227981274"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JrkB8slXEe2hENwqyPbiUw" aggregationKind="NONE" name="">
+      <modelElement href="JUnitLab.uml#_JmzdwclXEe2hENwqyPbiUw"/>
+      <visualProperties xmi:id="_J70EcclXEe2hENwqyPbiUw" position="-14.120921118943016,-82.18383493278017"/>
+      <visibility xmi:id="_JrkB88lXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JrkB9MlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JrkB9clXEe2hENwqyPbiUw" aggregationKind="NONE" name="cliente" navigable="true">
+      <modelElement href="JUnitLab.uml#_JmbqUMlXEe2hENwqyPbiUw"/>
+      <visualProperties xmi:id="_J70rgclXEe2hENwqyPbiUw" position="-245.7689042604538,40.968964534560854"/>
+      <visibility xmi:id="_JrkB9slXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JrkB98lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JrlQEMlXEe2hENwqyPbiUw" sourceAnchor="110.0,0.0" targetAnchor="0.0,41.0" target="_Js3CcMlXEe2hENwqyPbiUw" source="_Jrl3IMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_Jm16AMlXEe2hENwqyPbiUw"/>
+    <bendpoints xmi:id="_J7y2UMlXEe2hENwqyPbiUw" sourceY="-251" targetX="-210"/>
+    <stereotypes xmi:id="_JrlQEclXEe2hENwqyPbiUw" name="Reference">
+      <modelElement href="JUnitLab.uml#_Jm4WQMlXEe2hENwqyPbiUw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JrlQEslXEe2hENwqyPbiUw" text="">
+      <visualProperties xmi:id="_J715oMlXEe2hENwqyPbiUw" position="-24.50416377715996,231.90636983843592"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JrlQE8lXEe2hENwqyPbiUw" aggregationKind="NONE" name="">
+      <modelElement href="JUnitLab.uml#_Jm16AclXEe2hENwqyPbiUw"/>
+      <visualProperties xmi:id="_J71SkMlXEe2hENwqyPbiUw" position="-15.221921916437765,-81.36968118108135"/>
+      <visibility xmi:id="_JrlQFMlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JrlQFclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JrlQFslXEe2hENwqyPbiUw" aggregationKind="NONE" name="empleado" navigable="true">
+      <modelElement href="JUnitLab.uml#_JmcRYclXEe2hENwqyPbiUw"/>
+      <visualProperties xmi:id="_J72gsMlXEe2hENwqyPbiUw" position="-254.58946638440412,266.39601522007104"/>
+      <visibility xmi:id="_JrlQF8lXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JrlQGMlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JsYhUMlXEe2hENwqyPbiUw" sourceAnchor="292.0,0.0" targetAnchor="0.0,11.0" superClass="_Js3CcMlXEe2hENwqyPbiUw" subClass="_JscLsMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JmTugMlXEe2hENwqyPbiUw"/>
+    <bendpoints xmi:id="_J7zdYMlXEe2hENwqyPbiUw" sourceY="-125" targetX="-375"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JsfPAMlXEe2hENwqyPbiUw" sourceAnchor="591.0,41.0" targetAnchor="0.0,60.0" superClass="_Jsi5YMlXEe2hENwqyPbiUw" subClass="_JsoY8MlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JmR5UMlXEe2hENwqyPbiUw"/>
+    <bendpoints xmi:id="_J7zdYclXEe2hENwqyPbiUw" sourceX="61" targetX="-35" targetY="311"/>
+    <bendpoints xmi:id="_J7zdYslXEe2hENwqyPbiUw" sourceX="61" sourceY="-311" targetX="-35"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JsfPAclXEe2hENwqyPbiUw" sourceAnchor="653.0,41.0" targetAnchor="0.0,60.0" superClass="_Jsi5YMlXEe2hENwqyPbiUw" subClass="_Js3CcMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JmSgYMlXEe2hENwqyPbiUw"/>
+    <bendpoints xmi:id="_J7zdY8lXEe2hENwqyPbiUw" sourceX="30" targetX="-35" targetY="155"/>
+    <bendpoints xmi:id="_J70EcMlXEe2hENwqyPbiUw" sourceX="30" sourceY="-155" targetX="-35"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jrl3IMlXEe2hENwqyPbiUw" name="Empresa" associationsOut="_Jrja4MlXEe2hENwqyPbiUw _JrlQEMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JlCjMMlXEe2hENwqyPbiUw"/>
+    <visualProperties xmi:id="_Jrl3IclXEe2hENwqyPbiUw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jrl3IslXEe2hENwqyPbiUw" label="+"/>
+    <attributes xmi:id="_Jrl3I8lXEe2hENwqyPbiUw" name="nombre">
+      <modelElement href="JUnitLab.uml#_JmX_8MlXEe2hENwqyPbiUw"/>
+      <stereotypes xmi:id="_Jrl3JMlXEe2hENwqyPbiUw" name="LegacyStyledElement">
+        <modelElement href="JUnitLab.uml#_JmacMMlXEe2hENwqyPbiUw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jrl3JclXEe2hENwqyPbiUw" label="-"/>
+      <cardinality xmi:id="_Jrl3JslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jrl3J8lXEe2hENwqyPbiUw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jrl3KMlXEe2hENwqyPbiUw" name="cliente">
+      <modelElement href="JUnitLab.uml#_JmbqUMlXEe2hENwqyPbiUw"/>
+      <stereotypes xmi:id="_Jrl3KclXEe2hENwqyPbiUw" name="LegacyStyledElement">
+        <modelElement href="JUnitLab.uml#_JmcRYMlXEe2hENwqyPbiUw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jrl3KslXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jrl3K8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jrl3LMlXEe2hENwqyPbiUw" name="Cliente">
+        <modelElement href="JUnitLab.uml#_JktzEMlXEe2hENwqyPbiUw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jrl3LclXEe2hENwqyPbiUw" name="empleado">
+      <modelElement href="JUnitLab.uml#_JmcRYclXEe2hENwqyPbiUw"/>
+      <stereotypes xmi:id="_Jrl3LslXEe2hENwqyPbiUw" name="LegacyStyledElement">
+        <modelElement href="JUnitLab.uml#_Jmc4cMlXEe2hENwqyPbiUw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jrl3L8lXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jrl3MMlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jrl3MclXEe2hENwqyPbiUw" name="Empleado">
+        <modelElement href="JUnitLab.uml#_Jk6nYMlXEe2hENwqyPbiUw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jrl3MslXEe2hENwqyPbiUw" name="Empresa">
+      <modelElement href="JUnitLab.uml#_JlEYYMlXEe2hENwqyPbiUw"/>
+      <keywords xmi:id="_Jrl3M8lXEe2hENwqyPbiUw" keyword="create"/>
+      <visibility xmi:id="_Jrl3NMlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jrl3NclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jrl3NslXEe2hENwqyPbiUw">
+        <modelElement href="JUnitLab.uml#_JlE_cMlXEe2hENwqyPbiUw"/>
+        <type xmi:id="_Jrl3N8lXEe2hENwqyPbiUw" name="Empresa">
+          <modelElement href="JUnitLab.uml#_JlCjMMlXEe2hENwqyPbiUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jrl3OMlXEe2hENwqyPbiUw" name="nombre">
+        <modelElement href="JUnitLab.uml#_JlEYYclXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Jrl3OclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Jrl3OslXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JscLsMlXEe2hENwqyPbiUw" name="Jefe" generalizations="_JsYhUMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JlKfAMlXEe2hENwqyPbiUw"/>
+    <visualProperties xmi:id="_JscLsclXEe2hENwqyPbiUw" position="-317.0,-126.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JscLsslXEe2hENwqyPbiUw" label="+"/>
+    <operations xmi:id="_JscLs8lXEe2hENwqyPbiUw" name="Jefe">
+      <modelElement href="JUnitLab.uml#_JlLtIMlXEe2hENwqyPbiUw"/>
+      <keywords xmi:id="_JscLtMlXEe2hENwqyPbiUw" keyword="create"/>
+      <visibility xmi:id="_JscLtclXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JscLtslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JscLt8lXEe2hENwqyPbiUw">
+        <modelElement href="JUnitLab.uml#_JlMUNMlXEe2hENwqyPbiUw"/>
+        <type xmi:id="_JscLuMlXEe2hENwqyPbiUw" name="Jefe">
+          <modelElement href="JUnitLab.uml#_JlKfAMlXEe2hENwqyPbiUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JscLuclXEe2hENwqyPbiUw" name="nombre">
+        <modelElement href="JUnitLab.uml#_JlLtIclXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JscLuslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JscLu8lXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JscLvMlXEe2hENwqyPbiUw" name="apellidos">
+        <modelElement href="JUnitLab.uml#_JlLtIslXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JscLvclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JscLvslXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JscLv8lXEe2hENwqyPbiUw" name="fechaNacimiento">
+        <modelElement href="JUnitLab.uml#_JlMUMMlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JscLwMlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JscLwclXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JscLwslXEe2hENwqyPbiUw" name="sueldoBruto">
+        <modelElement href="JUnitLab.uml#_JlMUMclXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JscLw8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JscLxMlXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jsi5YMlXEe2hENwqyPbiUw" name="Persona" subclassedBy="_JsfPAMlXEe2hENwqyPbiUw _JsfPAclXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JlNiUMlXEe2hENwqyPbiUw"/>
+    <visualProperties xmi:id="_Jsi5YclXEe2hENwqyPbiUw" position="1068.0,-436.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jsi5YslXEe2hENwqyPbiUw" label="+"/>
+    <attributes xmi:id="_Jsi5Y8lXEe2hENwqyPbiUw" name="nombre">
+      <modelElement href="JUnitLab.uml#_JmdfgMlXEe2hENwqyPbiUw"/>
+      <visibility xmi:id="_Jsi5ZMlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jsi5ZclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsi5ZslXEe2hENwqyPbiUw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jsi5Z8lXEe2hENwqyPbiUw" name="apellidos">
+      <modelElement href="JUnitLab.uml#_JmdfgclXEe2hENwqyPbiUw"/>
+      <visibility xmi:id="_Jsi5aMlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jsi5aclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsi5aslXEe2hENwqyPbiUw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jsi5a8lXEe2hENwqyPbiUw" name="fechaNacimiento">
+      <modelElement href="JUnitLab.uml#_JmeGkMlXEe2hENwqyPbiUw"/>
+      <stereotypes xmi:id="_Jsi5bMlXEe2hENwqyPbiUw" name="LegacyStyledElement">
+        <modelElement href="JUnitLab.uml#_JmetoMlXEe2hENwqyPbiUw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jsi5bclXEe2hENwqyPbiUw" label="#"/>
+      <cardinality xmi:id="_Jsi5bslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jsi5b8lXEe2hENwqyPbiUw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jsi5cMlXEe2hENwqyPbiUw" name="Persona">
+      <modelElement href="JUnitLab.uml#_JlQloMlXEe2hENwqyPbiUw"/>
+      <keywords xmi:id="_Jsi5cclXEe2hENwqyPbiUw" keyword="create"/>
+      <visibility xmi:id="_Jsi5cslXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Jsi5c8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jsi5dMlXEe2hENwqyPbiUw">
+        <modelElement href="JUnitLab.uml#_JlTB4slXEe2hENwqyPbiUw"/>
+        <type xmi:id="_Jsi5dclXEe2hENwqyPbiUw" name="Persona">
+          <modelElement href="JUnitLab.uml#_JlNiUMlXEe2hENwqyPbiUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jsi5dslXEe2hENwqyPbiUw" name="nombre">
+        <modelElement href="JUnitLab.uml#_JlRMsMlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Jsi5d8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Jsi5eMlXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jsi5eclXEe2hENwqyPbiUw" name="apellidos">
+        <modelElement href="JUnitLab.uml#_JlSa0MlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Jsi5eslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Jsi5e8lXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jsi5fMlXEe2hENwqyPbiUw" name="fechaNacimiento">
+        <modelElement href="JUnitLab.uml#_JlSa0clXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Jsi5fclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Jsi5fslXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JsoY8MlXEe2hENwqyPbiUw" name="Cliente" associationsIn="_Jrja4MlXEe2hENwqyPbiUw" generalizations="_JsfPAMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_JktzEMlXEe2hENwqyPbiUw"/>
+    <visualProperties xmi:id="_JsoY8clXEe2hENwqyPbiUw" position="381.0,-106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JsoY8slXEe2hENwqyPbiUw" label="+"/>
+    <attributes xmi:id="_JsoY88lXEe2hENwqyPbiUw" name="telefono">
+      <modelElement href="JUnitLab.uml#_JmU8oMlXEe2hENwqyPbiUw"/>
+      <visibility xmi:id="_JsoY9MlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JsoY9clXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_JsoY9slXEe2hENwqyPbiUw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JsoY98lXEe2hENwqyPbiUw" name="Cliente">
+      <modelElement href="JUnitLab.uml#_Jk2V8MlXEe2hENwqyPbiUw"/>
+      <keywords xmi:id="_JsoY-MlXEe2hENwqyPbiUw" keyword="create"/>
+      <visibility xmi:id="_JsoY-clXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_JsoY-slXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JsoY-8lXEe2hENwqyPbiUw">
+        <modelElement href="JUnitLab.uml#_Jk4LIslXEe2hENwqyPbiUw"/>
+        <type xmi:id="_JsoY_MlXEe2hENwqyPbiUw" name="Cliente">
+          <modelElement href="JUnitLab.uml#_JktzEMlXEe2hENwqyPbiUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JsoY_clXEe2hENwqyPbiUw" name="nombre">
+        <modelElement href="JUnitLab.uml#_Jk29AMlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JsoY_slXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JsoY_8lXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsoZAMlXEe2hENwqyPbiUw" name="apellidos">
+        <modelElement href="JUnitLab.uml#_Jk29AclXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JsoZAclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JsoZAslXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsoZA8lXEe2hENwqyPbiUw" name="fechaNacimiento">
+        <modelElement href="JUnitLab.uml#_Jk29AslXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JsoZBMlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JsoZBclXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JsoZBslXEe2hENwqyPbiUw" name="telefono">
+        <modelElement href="JUnitLab.uml#_Jk29A8lXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_JsoZB8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_JsoZCMlXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Js3CcMlXEe2hENwqyPbiUw" name="Empleado" associationsIn="_JrlQEMlXEe2hENwqyPbiUw" generalizations="_JsfPAclXEe2hENwqyPbiUw" subclassedBy="_JsYhUMlXEe2hENwqyPbiUw">
+    <modelElement href="JUnitLab.uml#_Jk6nYMlXEe2hENwqyPbiUw"/>
+    <visualProperties xmi:id="_Js3CcclXEe2hENwqyPbiUw" position="350.0,-262.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Js3CcslXEe2hENwqyPbiUw" label="+"/>
+    <attributes xmi:id="_Js3Cc8lXEe2hENwqyPbiUw" name="sueldoBruto">
+      <modelElement href="JUnitLab.uml#_JmWKwMlXEe2hENwqyPbiUw"/>
+      <visibility xmi:id="_Js3CdMlXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Js3CdclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <type xmi:id="_Js3CdslXEe2hENwqyPbiUw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Js3Cd8lXEe2hENwqyPbiUw" name="Empleado">
+      <modelElement href="JUnitLab.uml#_Jk_f4MlXEe2hENwqyPbiUw"/>
+      <keywords xmi:id="_Js3CeMlXEe2hENwqyPbiUw" keyword="create"/>
+      <visibility xmi:id="_Js3CeclXEe2hENwqyPbiUw" label="+"/>
+      <cardinality xmi:id="_Js3CeslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Js3Ce8lXEe2hENwqyPbiUw">
+        <modelElement href="JUnitLab.uml#_JlAuBMlXEe2hENwqyPbiUw"/>
+        <type xmi:id="_Js3CfMlXEe2hENwqyPbiUw" name="Empleado">
+          <modelElement href="JUnitLab.uml#_Jk6nYMlXEe2hENwqyPbiUw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Js3CfclXEe2hENwqyPbiUw" name="nombre">
+        <modelElement href="JUnitLab.uml#_JlAG8MlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Js3CfslXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3Cf8lXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Js3CgMlXEe2hENwqyPbiUw" name="apellidos">
+        <modelElement href="JUnitLab.uml#_JlAG8clXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Js3CgclXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3CgslXEe2hENwqyPbiUw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Js3Cg8lXEe2hENwqyPbiUw" name="fechaNacimiento">
+        <modelElement href="JUnitLab.uml#_JlAuAMlXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Js3ChMlXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3ChclXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Js3ChslXEe2hENwqyPbiUw" name="sueldoBruto">
+        <modelElement href="JUnitLab.uml#_JlAuAclXEe2hENwqyPbiUw"/>
+        <cardinality xmi:id="_Js3Ch8lXEe2hENwqyPbiUw" label="1" max="1" min="1"/>
+        <type xmi:id="_Js3CiMlXEe2hENwqyPbiUw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
